@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Maven Build",
+            "type": "shell",
+            "command": "C:\\Maven\\apache-maven-3.9.9\\bin\\mvn",
+            "args": ["clean", "package"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
